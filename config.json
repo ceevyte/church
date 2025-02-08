@@ -1,0 +1,11 @@
+{
+    "startIndex": 0,
+    "nodes": [
+        { "title": "Node 1", "audio": "4 Мария ук.mp3" },
+        { "title": "Node 2", "audio": "5 Ангел перед Марией.mp3" },
+        { "title": "Node 3", "audio": "6 Иосиф спит сразу храп.mp3" },
+        { "title": "Node 4", "audio": "8 Иосиф и Мария.mp3" },
+        { "title": "Node 5", "audio": "9 Стук и скрип двери.mp3" },
+        { "title": "Node 6", "audio": "10 Ночь пастухов.mp3" }
+    ]
+}

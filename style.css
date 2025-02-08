@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+#node-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+.node {
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0;
+    background: white;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.node:hover {
+    background: #ddd;
+}
+
+@media (max-width: 600px) {
+    .node {
+        font-size: 18px;
+        padding: 15px;
+    }
+}
